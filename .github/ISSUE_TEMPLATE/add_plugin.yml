@@ -1,6 +1,6 @@
 name: 添加插件
 description: 请求添加新插件
-labels: ["bug"]
+labels: ["BUG"]
 assignees:
   - DongShaoNB
 body:
