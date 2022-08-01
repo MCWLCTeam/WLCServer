@@ -1,0 +1,78 @@
+name: 反馈BUG
+description: 反馈服务器内BUG
+labels: ["BUG"]
+assignees:
+  - DongShaoNB
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 欢迎来到 MCWLCServer 
+        你正在向未来城服务器反馈BUG
+
+        <strong><i>你必须填写标注为星号（*）的表单项</i></strong>
+
+
+  - type: input
+    id: bug-find-time
+    attributes:
+      label: BUG触发大致时间
+      description: |
+        提供BUG触发大致时间 建议精准到XX点XX分
+      placeholder:  2022/7/30 11:45:14
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: BUG说明
+      description: |
+        这个BUG触发的会咋样
+      placeholder: |
+        例如：木镐挖黑曜石会掉下界之星
+    validations:
+      required: true
+
+  - type: textarea
+    id: how-to-trigger-bug
+    attributes:
+      label: BUG触发步骤（使用文字描述或直接提供录屏）
+      description: |
+        1.XXX
+        2.XXX
+        或者路旁视频链接
+        http://b23.tv/1145141919810
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bug-severity
+    attributes:
+      label: BUG严重程度
+      description: BUG的严重程度
+      options:
+        - 致命（入侵服务器后台）
+        - 严重（可崩服，刷物品）
+        - 一般（部分功能无法正常使用）
+        - 轻微（一般为翻译问题等）
+    validations:
+      required: true
+
+
+  - type: dropdown
+    id: what-server
+    attributes:
+      label: BUG服务器
+      description: 选择该BUG发生在哪个服务器
+      options:
+        - Velocity 跨服端
+        - Geyser 基岩版代理
+        - 大厅服
+        - 9周目生存服
+        - 洞穴服
+        - 全服
+        - 其他
+        - 我不知道
+    validations:
+      required: true
