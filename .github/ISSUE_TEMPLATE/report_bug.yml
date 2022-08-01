@@ -34,7 +34,7 @@ body:
     validations:
       required: true
 
- - type: textarea
+  - type: textarea
     id: how-to-trigger-bug
     attributes:
       label: BUG触发步骤
