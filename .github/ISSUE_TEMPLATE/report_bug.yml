@@ -40,7 +40,7 @@ body:
       label: BUG触发步骤
       description: |
         使用文字描述或提供录屏视频链接
-     placeholder: |
+      placeholder: |
         1.XXX
         2.XXX
         或者录屏视频链接
