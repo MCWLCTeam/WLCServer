@@ -1,4 +1,5 @@
 # WLCServer
+![WLCServer Logo](wlc.png "WLCServer Logo")
 欢迎来到MCWLCServer的GitHub页面<br><p>
 未来城服务器官网：https://www.mcbeserver.cn/<br><p>
 你可以在这里：<br><p>
