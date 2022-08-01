@@ -2,6 +2,8 @@
 name: 添加新插件
 about: 请求添加新插件
 title: "[添加新插件]: [简略说明插件]"
+labels: BUG
+assignees: DongShaoNB
 ---
 
 ## ISSUE TEMPLATE
