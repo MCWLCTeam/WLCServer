@@ -10,6 +10,7 @@ NCWLCServer创立于 2019/7/30<br><p>
   - [水鸟] FlaxenCarp67581 负责整活 and 咕咕咕<br><p>
   - [总建筑师] blockerbilibili 负责服务器建筑<br><p>
   - [建筑师] sansanlaichi 负责服务器建筑<br><p>
+
 MCWLCServer官网：https://www.mcbeserver.cn/<br><p>
 你可以在这里：<br><p>
 - 提交Issue请求添加新的插件<br><p>
