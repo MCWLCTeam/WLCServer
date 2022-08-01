@@ -28,7 +28,7 @@ body:
     attributes:
       label: BUG说明
       description: |
-        这个BUG触发的会咋样
+        这个BUG触发会咋样
       placeholder: |
         例如：木镐挖黑曜石会掉下界之星
     validations:
@@ -37,12 +37,25 @@ body:
   - type: textarea
     id: how-to-trigger-bug
     attributes:
-      label: BUG触发步骤（使用文字描述或直接提供录屏）
+      label: BUG触发步骤
       description: |
+        使用文字描述或提供录屏视频链接
+     placeholder: |
         1.XXX
         2.XXX
-        或者路旁视频链接
+        或者录屏视频链接
         http://b23.tv/1145141919810
+    validations:
+      required: true
+      
+   - type: textarea
+    id: what-happen-if-not-bug
+    attributes:
+      label: 预期效果
+      description: |
+        如果此BUG不存在正常是怎么样的
+      placeholder: |
+        例如：木镐挖黑曜石什么东西都不会掉
     validations:
       required: true
 
