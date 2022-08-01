@@ -1,0 +1,83 @@
+name: 添加插件
+description: 请求添加新插件
+labels: ["bug"]
+assignees:
+  - DongShaoNB
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 欢迎来到 MCWLCServer 
+        你正在向未来城服务器请求提交新的插件
+
+        <strong><i>你必须填写标注为星号（*）的表单项</i></strong>
+
+
+  - type: input
+    id: description
+    attributes:
+      label: 插件名称
+      description: |
+        提供该插件英文名字
+      placeholder: 请提供英文名字 除非真的只有中文名字
+    validations:
+      required: true
+
+  - type: textarea
+    id: explain
+    attributes:
+      label: 简略说明
+      description: |
+        简略的说明这个插件是干嘛的
+      placeholder: |
+        可以让东少变身（bushi）
+    validations:
+      required: false
+
+  - type: input
+    id: plugin-link
+    attributes:
+      label: 插件地址
+      description: |
+        插件发布的地址
+    validations:
+      required: true
+
+  - type: input
+    id: plugin-download-link
+    attributes:
+      label: 插件下载地址
+      description: |
+        插件下载的地址
+    validations:
+      required: false
+
+  - type: dropdown
+    id: plugin-type
+    attributes:
+      label: 插件类型
+      description: 请选择插件类型
+      options:
+        - 娱乐
+        - 综合
+        - 信息
+        - 管理
+        - 安全
+        - 其他
+    validations:
+      required: true
+
+  - type: dropdown
+    id: what-server
+    attributes:
+      label: 添加的服务器
+      description: 选择需要添加在哪个服务器
+      options:
+        - Velocity 跨服端
+        - Geyser 基岩版代理
+        - 大厅服
+        - 9周目生存服
+        - 洞穴服
+        - 全服
+    validations:
+      required: true
