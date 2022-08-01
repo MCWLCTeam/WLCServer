@@ -48,7 +48,7 @@ body:
     validations:
       required: true
       
-   - type: textarea
+  - type: textarea
     id: what-happen-if-not-bug
     attributes:
       label: 预期效果
@@ -58,7 +58,7 @@ body:
         例如：木镐挖黑曜石什么东西都不会掉
     validations:
       required: true
-
+ 
   - type: dropdown
     id: bug-severity
     attributes:
