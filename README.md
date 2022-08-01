@@ -1,5 +1,5 @@
 # WLCServer
-<img src=wlc.png width=14% /><br><p>
+<img src=wlc.png width=11% /><br><p>
 欢迎来到MCWLCServer的GitHub页面<br><p>
 未来城服务器官网：https://www.mcbeserver.cn/<br><p>
 你可以在这里：<br><p>
