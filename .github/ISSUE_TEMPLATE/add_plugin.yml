@@ -67,17 +67,21 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+  - type: checkboxes
     id: what-server
     attributes:
       label: 添加的服务器
       description: 选择需要添加在哪个服务器
       options:
-        - Velocity 跨服端
-        - Geyser 基岩版代理
-        - 大厅服
-        - 9周目生存服
-        - 洞穴服
-        - 全服
-    validations:
-      required: true
+        - label: Velocity 跨服端
+          required: true
+        - label: Geyser 基岩版代理
+          required: true
+        - label: 大厅服
+          required: true
+        - label: 9周目生存服
+          required: true
+        - label: 洞穴服
+          required: true
+        - label: 全服
+          required: true
