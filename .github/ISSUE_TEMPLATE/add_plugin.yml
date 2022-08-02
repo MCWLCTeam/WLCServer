@@ -81,3 +81,14 @@ body:
         - 全服
     validations:
       required: true
+      
+  - type: textarea
+    id: add-other
+    attributes:
+      label: 补充
+      description: |
+        如有要补充的内容请填写在这里
+      placeholder: |
+        比如需要同时添加多个服务器或其他内容
+    validations:
+      required: false
