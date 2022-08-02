@@ -1,7 +1,7 @@
 # WLCServer
 <img src=wlc.png width=11% /><br><p>
 欢迎来到MCWLCServer（我的世界未来城服务器）的GitHub页面<br><p>
-NCWLCServer创立于 2019/7/30<br><p>
+MCWLCServer创立于 2019/7/30<br><p>
 MCWLCServer官网：https://www.mcbeserver.cn/<br><p>
 
 # 这里可以干嘛
