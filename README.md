@@ -4,7 +4,7 @@
 NCWLCServer创立于 2019/7/30<br><p>
 MCWLCServer官网：https://www.mcbeserver.cn/<br><p>
 
-# 你可以？
+# 这里可以干嘛
 你可以在这里：<br><p>
 - 提交Issue请求添加新的插件<br><p>
 - 提交Issue反馈BUG<br><p>
