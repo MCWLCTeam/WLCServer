@@ -79,5 +79,5 @@ body:
         - 9周目生存服
         - 洞穴服
         - 全服
-     validations:
+    validations:
       required: true
