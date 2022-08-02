@@ -74,14 +74,14 @@ body:
       description: 选择需要添加在哪个服务器
       options:
         - label: Velocity 跨服端
-          required: true
+          required: false
         - label: Geyser 基岩版代理
-          required: true
+          required: false
         - label: 大厅服
-          required: true
+          required: false
         - label: 9周目生存服
-          required: true
+          required: false
         - label: 洞穴服
-          required: true
+          required: false
         - label: 全服
-          required: true
+          required: false
