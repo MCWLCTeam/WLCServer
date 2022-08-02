@@ -97,6 +97,6 @@ body:
       description: |
         如有要补充的内容请填写在这里
       placeholder: |
-        比如该BUG发生在多个服务器或其他内容
+        比如BUG发生在多个服务器或其他内容
     validations:
       required: false
